@@ -61,6 +61,8 @@ webpack.build: ## Build site static: make webpack.build
 		${IMAGE_DEV} \
 		npm run build
 	rm -rf ${PWD}/passwd
+	rm -fr docs/
+	rsync -a app/dist/* docs/ 
 	
 
 start: ## Up the docker containers, use me with: make start

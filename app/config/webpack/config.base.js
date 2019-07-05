@@ -19,7 +19,7 @@ module.exports = {
     'app': path.join(rootPath, 'src/index.js')
   },
   output: {
-    path: path.join(rootPath, 'docs'),
+    path: path.join(rootPath, 'dist'),
     publicPath
   },
   resolve: {
