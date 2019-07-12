@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Welcome from "./../components/Welcome";
+import Welcome from "./../components/welcome";
 import logo from "./../../src/assets/imgs/dockervue.jpg";
 
 export default {
